@@ -1,0 +1,16 @@
+<layer-list xmlns:android="http://schemas.android.com/apk/res/android">
+    <!-- Oval shape with stroke -->
+    <item>
+        <shape
+            android:shape="oval">
+            <solid android:color="#ffff" />
+            <corners android:radius="5dp" />
+            <stroke
+                android:color="#60B264"
+                android:width="2dp" />
+        </shape>
+    </item>
+
+    <!-- Image as the background -->
+    <item android:drawable="@drawable/plus" />
+</layer-list>
